@@ -1,4 +1,5 @@
 #pragma once
 #include "Game.h"
 
-void start();
+void Help();
+void Start();

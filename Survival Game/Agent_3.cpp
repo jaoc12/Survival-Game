@@ -2,7 +2,7 @@
 #include "Agent_3.h"
 
 
-Agent_3::Agent_3() : Agent(70, 80) {}
+Agent_3::Agent_3() : Agent(70, 70) {}
 
 Agent_3::~Agent_3() {
 

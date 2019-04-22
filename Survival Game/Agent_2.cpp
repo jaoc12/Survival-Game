@@ -74,6 +74,6 @@ void Agent_2::SetItem(Item i) {
 void Agent_2::SpecialItem() {
 	if (item.getSpecial() == true) {
 		if (base_hp <= 50)
-			base_damage += 10;
+			base_damage += 20;
 	}
 }

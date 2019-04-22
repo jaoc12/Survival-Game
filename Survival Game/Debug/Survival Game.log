@@ -1,4 +1,2 @@
-﻿  Game.cpp
-c:\users\chitu\desktop\scoala\info\semestrul 2\poo\proiectul2\survival game\survival game\game.cpp(220): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\chitu\desktop\scoala\info\semestrul 2\poo\proiectul2\survival game\survival game\game.cpp(232): warning C4018: '<': signed/unsigned mismatch
+﻿  Source.cpp
   Survival Game.vcxproj -> C:\Users\chitu\Desktop\Scoala\INFO\Semestrul 2\POO\Proiectul2\Survival Game\Debug\Survival Game.exe

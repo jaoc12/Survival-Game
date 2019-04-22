@@ -21,6 +21,6 @@ class Game{
 	void Battle(Map&, vector<Agent*>&, Agent*, string, vector<Item>&);
 	bool Turn(Map&, vector<Item>&, vector<Agent*>&);
 	void Play();
-	friend void start();
+	friend void Start();
 };
 

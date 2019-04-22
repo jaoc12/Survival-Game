@@ -74,6 +74,6 @@ void Agent_1::SetItem(Item i) {
 void Agent_1::SpecialItem() {
 	if (item.getSpecial() == true) {
 		if (base_hp != 150)
-			base_hp += 20;
+			base_hp += 35;
 	}
 }
