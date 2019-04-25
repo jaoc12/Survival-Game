@@ -1,13 +1,15 @@
 #include "pch.h"
 #include "Agent_1.h"
 
-
+// consturctor cu lista de initializare
 Agent_1::Agent_1() : Agent(150,35) {}
 
-Agent_1::~Agent_1() {
+Agent_1::~Agent_1() {}
 
-}
-
+// returneaza "Bxy" daca pe pozitia xy se afla alt agent
+// returneaza "Ixy" daca pe pozitia xy se afla un item
+// returneaza "Mxy" daca pe pozitia xy nu se afla nimic
+// returneaza "NULL" daca agentul nu se poate muta
 string Agent_1::move(Map &m) {
 	string s;
 	//Dreapta doua pozitii
@@ -65,6 +67,7 @@ string Agent_1::move(Map &m) {
 	return "NULL";
 }
 
+// implementeaza itemul in functie de tipul agentului
 void Agent_1::SetItem(Item i) {
 	if (i.getTurns() > 0)
 		item = i;

@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "Item.h"
 
-
+// consructor care atribuie valori intamplatoare
 Item::Item(){
 	srand(time(NULL));
 	hp = rand() % 30 + 5;

@@ -10,9 +10,9 @@ protected:
 	int base_hp, base_damage, poz_x, poz_y;
 	Item item;
 	Agent(int, int);
+	//destructor virtual
 	virtual ~Agent();
-public:
-	int getHp() const;
+	// functii virtuale pure
 	string virtual move(Map&) = 0;
 	void virtual SetItem(Item) = 0;
 	void virtual SpecialItem() = 0;

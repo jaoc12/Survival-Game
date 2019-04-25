@@ -9,6 +9,7 @@
 class Game{
 	Game();
 	~Game();
+	// functii pentru gestionare hartii si a turelor
 	void SetupMap(Map&);
 	void SetupItem(Map&, vector<Item>&);
 	void SetupAgent(Map&, vector<Agent*>&, vector<Item>&);
@@ -19,7 +20,7 @@ class Game{
 	void Move(Map&, vector<Agent*>&, Agent*, string);
 	void MoveItem(Map&, vector<Agent*>&, Agent*, string, vector<Item>&);
 	void Battle(Map&, vector<Agent*>&, Agent*, string, vector<Item>&);
-	bool Turn(Map&, vector<Item>&, vector<Agent*>&);
+	int Turn(Map&, vector<Item>&, vector<Agent*>&);
 	void Play();
 	friend void Start();
 };

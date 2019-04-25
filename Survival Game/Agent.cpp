@@ -8,10 +8,4 @@ Agent::Agent(int h, int d) {
 }
 
 
-Agent::~Agent()
-{
-}
-
-int Agent::getHp() const{
-	return base_hp;
-}
+Agent::~Agent(){}

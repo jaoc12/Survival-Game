@@ -1,8 +1,10 @@
 #include "pch.h"
 #include "Map.h"
 
+// constructorul nu face nimic
 Map::Map() {}
 
+// set organizeaza harta folosindu-se de vectorii din stl
 void Map::Set(int x,int y){
 	m = x;
 	n = y;
@@ -14,12 +16,14 @@ void Map::Set(int x,int y){
 			map[i][j] = "-";
 }
 
+// deconstructor care elimina memoria dinamica
 Map::~Map(){
 	for (auto i = map.begin(); i != map.end(); i++)
 		i->clear();
 	map.clear();
 }
 
+// afisare a hartii
 void Map::Display() {
 	cout << "     ";
 	for (int i = 0; i < n; i++) {

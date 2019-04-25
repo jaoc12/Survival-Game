@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "Source.h"
 
+//functie de afisare explicatii despre aplicatie
 void Help() {
 	string flag;
 	do {
